@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\kambl\Desktop\exam projects web java\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3311087054.index
+1348540406.index
+2232972394.index
+3225368452.index
+856943119.index
+3302023214.index

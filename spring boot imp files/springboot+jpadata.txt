@@ -1,0 +1,9 @@
+src/main/java
+├── com.app
+│   ├── controller
+│   │   └── EmployeeController.java
+│   ├── entity
+│   │   └── Employee.java
+│   ├── repository
+│   │   └── EmployeeRepository.java
+│   └── EmployeeCrudApp.java

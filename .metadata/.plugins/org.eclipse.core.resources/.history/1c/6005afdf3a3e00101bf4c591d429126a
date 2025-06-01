@@ -1,0 +1,5 @@
+package com.app.SpringDataJPADemo.services;
+
+public class EmpService {
+
+}

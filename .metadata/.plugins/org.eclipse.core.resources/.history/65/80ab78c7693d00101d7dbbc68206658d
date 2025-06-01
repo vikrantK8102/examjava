@@ -1,0 +1,26 @@
+package com.app;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        SessionFactory factory = Configuration().configure().buildSessionFactory();
+        System.out.println(factory);
+    }
+
+	private static Configuration Configuration() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

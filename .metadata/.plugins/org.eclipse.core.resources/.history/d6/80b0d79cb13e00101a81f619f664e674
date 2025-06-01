@@ -1,0 +1,5 @@
+package com.app.springJPAthymleafProject.entity;
+
+public class Employee {
+
+}

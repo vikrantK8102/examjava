@@ -1,0 +1,16 @@
+YourProject/
+├── Java Resources/
+│   └── src/
+│       └── com.app/
+│           ├── Employee.java             → Entity class
+│           ├── HibernateUtil.java        → For getting SessionFactory
+│           ├── EmployeeDao.java          → Data Access Object
+│           └── EmployeeServlet.java      → Handles CRUD requests
+├── WebContent/
+│   ├── addEmp.jsp
+│   ├── addEmployee.jsp
+│   ├── deleteEmployee.jsp
+│   ├── viewEmployees.jsp
+│   └── WEB-INF/
+│       ├── web.xml
+│       └── hibernate.cfg.xml

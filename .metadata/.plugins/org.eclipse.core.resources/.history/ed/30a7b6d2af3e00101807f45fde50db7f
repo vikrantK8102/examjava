@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>add employee</title>
+</head>
+<body>
+<h2>Add Employees</h2>
+<form action="add" method="post">
+<table border="1">
+<tr>
+<td>Enter name :</td>
+<td><input type="text" name="name" required="required"></td>
+</tr>
+<tr>
+<td>Enter email :</td>
+<td><input type="email" name="email" required="required"></td>
+</tr>
+<tr>
+<td></td>
+<td><input type="submit" value="add"></td>
+</tr>
+</table>
+<br>
+<br>
+<a href="view">view Employees</a>
+</form>
+</body>
+</html>

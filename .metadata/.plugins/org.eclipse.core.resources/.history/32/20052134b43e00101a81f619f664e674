@@ -1,0 +1,5 @@
+package com.app.springJPAthymleafProject.controller;
+
+public class EmpController {
+
+}

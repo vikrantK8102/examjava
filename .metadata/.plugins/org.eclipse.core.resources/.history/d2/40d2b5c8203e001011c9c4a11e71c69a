@@ -1,0 +1,13 @@
+package com.app.SpringRestDemo.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MyController {
+
+	@GetMapping("/Home")
+	public String Home() {
+		return "this is my home page";
+	}
+}

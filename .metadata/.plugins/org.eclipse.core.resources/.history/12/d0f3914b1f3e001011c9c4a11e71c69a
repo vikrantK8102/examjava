@@ -1,0 +1,5 @@
+package com.app.SpringRestDemo.services;
+
+public interface CourseServices {
+
+}

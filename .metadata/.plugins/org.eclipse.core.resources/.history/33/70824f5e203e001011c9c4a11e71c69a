@@ -1,0 +1,23 @@
+package com.app.SpringRestDemo.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.app.SpringRestDemo.entity.Course;
+
+public class CourseServiceImpl implements CourseServices {
+	//create list obj
+	List<Course> list;
+	public CourseServiceImpl() {
+		list = new ArrayList<>();
+		list.add(new Course(123,"pgdac","this is advance computing course"));
+		
+	}
+
+	@Override
+	public List<Course> getCourses() {
+		
+		return null;
+	}
+
+}
