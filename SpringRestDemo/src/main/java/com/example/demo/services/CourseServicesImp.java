@@ -1,0 +1,58 @@
+package com.example.demo.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.example.demo.entity.Course;
+
+@Service
+public class CourseServicesImp implements CourseServicesI {
+
+	//create list obj
+		List<Course> list;
+		public CourseServicesImp() {
+			list = new ArrayList<>();
+			list.add(new Course(123,"pgdac","this is advance computing course"));
+			list.add(new Course(124,"pgda","big data course"));
+			list.add(new Course(125,"newtworking","computer network course"));
+		}
+
+		@Override
+		public List<Course> getCourses() {
+			
+			return list;
+		}
+
+		@Override
+		public Course getCourse(Long courseId) {
+		  Course c = null;
+		  for(Course cour :list) {
+			  if(cour.getId()==courseId) {
+				  c = cour;
+				  break;
+			  }
+		  }
+			return c;
+		}
+
+		@Override
+		public Course addCourse(Course cou) {
+			list.add(cou);
+			return cou;
+		}
+
+		@Override
+		public Course updateCourse(Course cou) {
+			for(int i=0;i<list.size();i++) {
+				Course existCourse = list.get(i);
+				if(existCourse.getId() == cou.getId()) {
+					list.set(i, cou);
+					return cou;
+				}
+			}
+			return null;
+		}
+
+}
